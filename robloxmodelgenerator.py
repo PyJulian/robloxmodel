@@ -8,9 +8,9 @@ model = '''<roblox version="4">
 '''
 
 try:
-    f = open('/Users/julianwortel/Desktop/model.rbxmx', 'x')
+    f = open('/Users/yourname/Desktop/model.rbxmx', 'x')
 except FileExistsError:
-    f = open('/Users/julianwortel/Desktop/model.rbxmx', 'w')
+    f = open('/Users/yourname/Desktop/model.rbxmx', 'w')
 
 for t in range(10):
     model += f'''
