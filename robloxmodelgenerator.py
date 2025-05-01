@@ -39,7 +39,7 @@ for t in range(10):
 '''
 
 model += '''
-</Item> <!-- Close Model -->
+</Item>
 </roblox>
 '''
 
